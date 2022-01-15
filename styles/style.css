@@ -55,8 +55,26 @@ p{
 
 }
 /*-------- Popular Collection ---------*/
+.container{
+    background-color: #c5c3c3;
+    width: 1047px;
+    height: 1633.95px;
+}
+h2{
+    text-align: center;
+}
 .collection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+}
+.collection img{
+    width: 300px;
+    height: 256px;
+}
+.each-products{
+    background-color: white;
+    width: 329px;
+    height: 476px;
+    padding: 17px 5px;
 }
